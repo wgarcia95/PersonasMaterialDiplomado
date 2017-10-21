@@ -7,8 +7,71 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="3dd9943aff1226ade9d958ae166923c36578368d">
+        sha1="32bf20fd7cdb3df7b0f7469b6f93748ca8738220">
         <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_acb9edaf004be4fd91300d8857e1fb84aa52b24b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\b4bd7273735c4fc70b3f866625eb38da80aea0d7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7df2239ae90f395fe063082838a176c8d525e70c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\b8aa25546af0bf828f4e27b51af3118674faccc5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6280d10588f85d638cf22880a0a76e09b4baaf16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\8e19fe872f2973d97ee991cbf954180315ba708f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fac6070d65c8fea2700b2763fdc8522a36bf1174\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\9d05dc8710514022a28ae009123c275bac5628eb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_753aa6572cd47166a54bd08c47340dd41be6f3cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\f1cbe465f508a6757eff36869016f12fdffb3898\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1284ce5011b4493f5e2c73ffd33de50e53e60c70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\b9bfecb8223425ec453ebba08841fbdb40eb2298\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd8ad0fe7f0a450f3930cbfe9892b9e5f6f90086\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\14614777af476e60b679f7c62a47d37280adb602\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26b50c162fbdbad79018f77fb9a8596081ece542\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +81,15 @@
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_abd5f26be469b1f330dad2e12fb7b4d333ac8b82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\android\.android\build-cache\6126e85332eec7eef287be32181804df3dcb5029\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\android\Documents\GitHub\PersonasMaterialDiplomado\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3cb36ce8f2a263ced58817f8a3481ef32755679b\classes.dex" />
     </item>
 
 </items>

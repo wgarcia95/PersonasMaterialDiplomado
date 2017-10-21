@@ -63,13 +63,13 @@ public class EditarPersona extends AppCompatActivity {
         if (Metodos.iguales(persona, personaEdit) == false){
             if (persona.getCedula().equals(personaEdit.getCedula())){
                 if (validar_otros_campos()){
-                    Datos.editarPErsona(pos, personaEdit);
+                    Datos.editarPersona(pos, personaEdit);
                     persona = personaEdit;
                     onBackPressed();
                 }
             }else{
                 if(validar()) {
-                    Datos.editarPErsona(pos, personaEdit);
+                    Datos.editarPersona(pos, personaEdit);
                     persona = personaEdit;
                     onBackPressed();
                 }
