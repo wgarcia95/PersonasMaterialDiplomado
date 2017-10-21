@@ -35,7 +35,8 @@ public class Metodos {
     }
 
     public static boolean iguales(Persona p1, Persona p2) {
-        if ((p1.getFoto() == p2.getFoto()) &&
+        if ((p1.getId() == p2.getId()) &&
+            (p1.getFoto() == p2.getFoto()) &&
             (p1.getCedula().equals(p2.getCedula())) &&
             (p1.getNombre().equals(p2.getNombre())) &&
             (p1.getApellido().equals(p2.getApellido())) &&

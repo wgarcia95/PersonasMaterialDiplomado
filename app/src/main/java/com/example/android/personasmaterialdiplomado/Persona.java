@@ -12,7 +12,16 @@ public class Persona {
     private String apellido;
     private int sexo;
 
-    public Persona(int foto,String cedula, String nombre, String apellido, int sexo){
+    public Persona(String id, int foto, String cedula, String nombre, String apellido, int sexo) {
+        this.id = id;
+        this.foto = foto;
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.sexo = sexo;
+    }
+
+    public Persona(int foto, String cedula, String nombre, String apellido, int sexo){
         this.foto=foto;
         this.cedula=cedula;
         this.nombre=nombre;

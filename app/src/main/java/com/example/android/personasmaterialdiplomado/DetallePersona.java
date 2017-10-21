@@ -67,7 +67,7 @@ public class DetallePersona extends AppCompatActivity {
     public void editar(View v){
         Intent i = new Intent(DetallePersona.this, EditarPersona.class);
         Bundle b = new Bundle();
-
+        b.putString("id", id);
         b.putString("cedula",cedula);
         b.putString("nombre",nombre);
         b.putString("apellido",apellido);

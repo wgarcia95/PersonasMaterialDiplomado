@@ -40,7 +40,7 @@ public class AdaptadorPersona extends RecyclerView.Adapter<AdaptadorPersona.Pers
         final Persona p = personas.get(position);
         holder.foto.setImageDrawable(ResourcesCompat.getDrawable(res,p.getFoto(),null));
         holder.cedula.setText(p.getCedula());
-        holder.nombre.setText(p.getNombre());
+        holder.nombre.setText(p.getNombre()+" ");
         holder.apellido.setText(p.getApellido());
 
         holder.v.setOnClickListener(new View.OnClickListener() {

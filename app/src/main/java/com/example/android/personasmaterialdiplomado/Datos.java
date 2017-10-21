@@ -19,8 +19,13 @@ public class Datos {
         dbreference.child(db).child(p.getId()).setValue(p);
     }
 
-    public static void editarPersona(int pos, Persona p){
-        personas.set(pos, p);
+    public static void editarPersona(Persona p){
+        dbreference.child(db).child(p.getId()).child("cedula").setValue(p.getCedula());
+        dbreference.child(db).child(p.getId()).child("nombre").setValue(p.getNombre());
+        dbreference.child(db).child(p.getId()).child("apellido").setValue(p.getApellido());
+        dbreference.child(db).child(p.getId()).child("sexo").setValue(p.getSexo());
+        dbreference.child(db).child(p.getId()).child("foto").setValue(p.getFoto());
+        //personas.set(pos, p);
     }
 
     public static ArrayList<Persona> obtenerPersonas() {

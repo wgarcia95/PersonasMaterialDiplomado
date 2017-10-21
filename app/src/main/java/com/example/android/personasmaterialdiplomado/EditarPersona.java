@@ -49,7 +49,7 @@ public class EditarPersona extends AppCompatActivity {
         opc = res.getStringArray(R.array.sexo);
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,opc);
         sexo.setAdapter(adapter);
-        persona = new Persona(bundle.getInt("foto"),bundle.getString("cedula"),
+        persona = new Persona(bundle.getString("id"), bundle.getInt("foto"),bundle.getString("cedula"),
                                 bundle.getString("nombre"), bundle.getString("apellido"),
                                 bundle.getInt("sexo"));
 
@@ -57,19 +57,19 @@ public class EditarPersona extends AppCompatActivity {
     }
 
     public void editar(View v){
-        int pos = Metodos.obtenerPosicionGuardada(Datos.obtenerPersonas(), persona);
-        Persona personaEdit = new Persona(persona.getFoto(), txtCedula.getText().toString(),
+        //int pos = Metodos.obtenerPosicionGuardada(Datos.obtenerPersonas(), persona);
+        Persona personaEdit = new Persona(persona.getId(), persona.getFoto(), txtCedula.getText().toString(),
                 txtNombre.getText().toString(), txtApellido.getText().toString(), sexo.getSelectedItemPosition());
         if (Metodos.iguales(persona, personaEdit) == false){
             if (persona.getCedula().equals(personaEdit.getCedula())){
                 if (validar_otros_campos()){
-                    Datos.editarPersona(pos, personaEdit);
+                    Datos.editarPersona(personaEdit);
                     persona = personaEdit;
                     onBackPressed();
                 }
             }else{
                 if(validar()) {
-                    Datos.editarPersona(pos, personaEdit);
+                    Datos.editarPersona(personaEdit);
                     persona = personaEdit;
                     onBackPressed();
                 }
@@ -125,6 +125,7 @@ public class EditarPersona extends AppCompatActivity {
         finish();
         Intent i = new Intent(EditarPersona.this, DetallePersona.class);
         Bundle b = new Bundle();
+        b.putString("id", persona.getId());
         b.putString("cedula",persona.getCedula());
         b.putString("nombre",persona.getNombre());
         b.putString("apellido",persona.getApellido());
